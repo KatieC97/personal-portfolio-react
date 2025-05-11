@@ -23,7 +23,6 @@ export default function TechStack() {
             <span>CSS</span>
           </div>
           <div
-          
             className="col tech-icon"
             data-aos="zoom-in"
             data-aos-delay="100"

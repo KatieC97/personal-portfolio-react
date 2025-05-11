@@ -1,0 +1,120 @@
+/* Base styles */
+body {
+  font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.btn-brand {
+  background-color: #a9338f;
+  color: white;
+  border: none;
+}
+
+.btn-brand:hover {
+  background-color: #8f277a;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8f9fa;
+  margin-bottom: 1.5rem; /* helps push hero down */
+}
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+/* --- Hero Banner --- */
+#hero,
+#domi {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none;
+}
+
+#hero img,
+#domi img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+}
+
+/* --- About Section --- */
+#about {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+/* --- Tech Stack --- */
+#stack {
+  padding-top: 2rem;
+}
+
+.tech-icon {
+  font-size: 4rem;
+}
+.tech-icon span {
+  font-size: 1.1rem;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1rem;
+}
+
+.no-padding {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+/* --- Mobile Tweaks --- */
+@media (max-width: 576px) {
+  #hero img,
+  #domi img {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #about {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .tech-icon {
+    font-size: 2.2rem;
+  }
+
+  .tech-icon span {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 768px) {
+  .tech-icon {
+    font-size: 4rem;
+  }
+  .tech-icon span {
+    font-size: 1.1rem;
+  }
+  #hero {
+    padding-top: 3.5rem !important;
+  }
+}
+@media (max-width: 992px) {
+  #stack {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
